@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Invie - Precios</title>
+</head>
+<body>
+    <div class="background">
+        <header id="header" class="header cont"> <!-- header -->
+
+            <figure class="logotipo"> <!-- logotipo -->
+                <img src="img/invie.png" alt="logotipo de invie" width="186" height="60">
+            </figure>
+
+            <nav class="menu"> <!-- menu -->
+                <ul>
+                    <li>
+                        <a href="Index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Index.html#guitarras">Guitarras</a>
+                    </li>
+                    <li>
+                        <a href="precios.html">Precios</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="tabla">
+        <div class="cont">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Precio</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$1000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$1000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$1000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="cont">
+            <div class="contacto">
+                <img src="img/invie-white.png" alt="logo blanco">
+                <a href="tel: +57316275 9046"><strong>Teléfono</strong> <span>316 275 9046</span></a>
+                <a href="mailto: contacto@invie.com"><strong>Email</strong> <span>contacto@invie.com</span></a>
+            </div>
+            <form class="form">
+                <div class="col-1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" required id="nombre" name="Nombre">
+                    <label for="email">E-mail</label>
+                    <input type="email" required id="email" name="mail">
+                    <div class="sexo">
+                        <label for="mujer">
+                            <input type="radio" id="mujer" name="sexo" value="mujer" checked> Mujer
+                        </label>
+                        <label for="hombre">
+                            <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+                        </label>
+                    </div>
+                    <div class="intereses">
+                        <label for="cotizacion">
+                            <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" checked> Cotización
+                        </label>
+                        <label for="reclamos">
+                            <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+                        </label>
+                        <label for="comentarios">
+                            <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+                        </label>
+                        <label for="otros">
+                            <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarias" id="comentarios" cols="30" rows="7"></textarea>
+                    <input type="submit" value="Enviar" class="button">
+                </div>
+            </form>
+        </div>
+    </footer>
+    
+  
+</body>
+</html>
